@@ -1,0 +1,72 @@
+[
+  {
+    "observed_at": 1000.0,
+    "reachable": true,
+    "hashrate_ths": 84.0,
+    "temperature_c": 64.0,
+    "fan_rpm": [1332, 1340, 1328, 1344],
+    "accepted_shares": 120,
+    "rejected_shares": 1,
+    "elapsed_seconds": 1800,
+    "pool_active": true,
+    "pool_matches_expected": true,
+    "model": "Q",
+    "identity_verified": true
+  },
+  {
+    "observed_at": 1030.0,
+    "reachable": true,
+    "hashrate_ths": 0.0,
+    "temperature_c": 61.0,
+    "fan_rpm": [1310, 1308, 1312, 1309],
+    "accepted_shares": 120,
+    "rejected_shares": 1,
+    "elapsed_seconds": 1830,
+    "pool_active": false,
+    "pool_matches_expected": null,
+    "model": "Q",
+    "identity_verified": true
+  },
+  {
+    "observed_at": 1060.0,
+    "reachable": true,
+    "hashrate_ths": 0.0,
+    "temperature_c": 60.0,
+    "fan_rpm": [1304, 1307, 1305, 1303],
+    "accepted_shares": 120,
+    "rejected_shares": 1,
+    "elapsed_seconds": 1860,
+    "pool_active": false,
+    "pool_matches_expected": null,
+    "model": "Q",
+    "identity_verified": true
+  },
+  {
+    "observed_at": 1090.0,
+    "reachable": true,
+    "hashrate_ths": 0.0,
+    "temperature_c": 60.0,
+    "fan_rpm": [1301, 1302, 1300, 1304],
+    "accepted_shares": 120,
+    "rejected_shares": 1,
+    "elapsed_seconds": 1890,
+    "pool_active": false,
+    "pool_matches_expected": null,
+    "model": "Q",
+    "identity_verified": true
+  },
+  {
+    "observed_at": 1120.0,
+    "reachable": true,
+    "hashrate_ths": 83.5,
+    "temperature_c": 63.0,
+    "fan_rpm": [1330, 1336, 1329, 1338],
+    "accepted_shares": 124,
+    "rejected_shares": 1,
+    "elapsed_seconds": 1920,
+    "pool_active": true,
+    "pool_matches_expected": true,
+    "model": "Q",
+    "identity_verified": true
+  }
+]

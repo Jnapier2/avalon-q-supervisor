@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+.coverage
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+config.local.json
+config.*.local.json
+var/
+*.jsonl
+*.jsonl.lock
+recovery-state.json
+recovery-state.json.lock
+.DS_Store
+Thumbs.db

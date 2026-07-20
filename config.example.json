@@ -1,0 +1,33 @@
+{
+  "_notes": "192.0.2.10 is reserved for documentation. Copy this file to config.local.json and replace it locally.",
+  "device": {
+    "host": "192.0.2.10",
+    "port": 4028,
+    "timeout_seconds": 3.0,
+    "max_response_bytes": 1048576,
+    "expected_model": "Q"
+  },
+  "health": {
+    "expected_hashrate_ths": 0.0,
+    "degraded_hashrate_ratio": 0.7,
+    "critical_hashrate_ratio": 0.1,
+    "startup_grace_seconds": 300,
+    "warning_temperature_c": 70.0,
+    "critical_temperature_c": 85.0,
+    "max_reject_ratio": 0.05,
+    "minimum_shares_for_ratio": 20,
+    "expected_pool_url": "stratum+tcp://stratum.ckpool.org:3333"
+  },
+  "recovery": {
+    "enabled": false,
+    "consecutive_critical": 3,
+    "cooldown_seconds": 900,
+    "window_seconds": 3600,
+    "max_reboots_per_window": 2,
+    "state_file": "var/recovery-state.json"
+  },
+  "audit": {
+    "log_file": "var/audit.jsonl",
+    "redaction_salt_env": "AVALON_Q_AUDIT_SALT"
+  }
+}
