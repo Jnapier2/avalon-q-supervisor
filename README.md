@@ -82,7 +82,7 @@ The parser and adapter are validated against Canaan's published Avalon Q command
 
 No live Avalon Q was reachable from the publication environment. Device-specific network behavior and an executed reboot must still be validated by the operator on an isolated local network before recovery is enabled.
 
-Protocol references: [Canaan Avalon Q commands](https://www.canaan.io/resource/api/avalon-q-commands), [Canaan local-only remote-control guidance](https://support.canaan.io/en-us/knowledgebase/article/KA-01254), and [CKPool endpoint documentation](https://solo.ckpool.org/).
+Protocol references: [Canaan Avalon Q commands](https://www.canaan.io/resource/api/avalon-q-commands), [Canaan Avalon API LAN guidance](https://www.canaan.io/resource/api/getting-started), and [CKPool endpoint documentation](https://solo.ckpool.org/).
 
 ## Scope
 
