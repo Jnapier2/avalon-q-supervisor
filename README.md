@@ -2,6 +2,8 @@
 
 [![Tests](https://github.com/Jnapier2/avalon-q-supervisor/actions/workflows/test.yml/badge.svg)](https://github.com/Jnapier2/avalon-q-supervisor/actions/workflows/test.yml)
 
+[Portfolio](https://jerry-napier-portfolio.netlify.app/) · [GitHub profile](https://github.com/Jnapier2)
+
 Avalon Q Supervisor is a local-first operations layer for a Canaan Avalon Q. It converts the device's TCP telemetry into clear health states, applies a durable restart budget, and records privacy-conscious evidence for each decision.
 
 The project shows how small-scale hardware operations can be made easier to review and safer to automate. Instead of treating every anomaly as a reboot request, it separates transient degradation, recoverable critical conditions, offline devices, and conditions that need an operator.
